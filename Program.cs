@@ -36,6 +36,11 @@ class MainClass
         array[2] = 3;
         array[3] = 2;
         array[4] = 5;
+        array[5] = 6;
+        array[6] = 7;
+        array[7] = 8;
+        array[8] = 9;
+        array[9] = 10;
         List<int> check = new List<int>();
         foreach (int i in array)
         {
@@ -78,6 +83,8 @@ class MainClass
     }
     public static void Main()
     {
+        MainClass.Reverse();
+        MainClass.CountingArrays();
         MainClass.MakingSequence();
     }
 }
